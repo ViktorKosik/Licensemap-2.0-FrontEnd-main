@@ -1,0 +1,103 @@
+/* Загальний фон сторінки */
+.background {
+    background: url("/src/pics/sign_up_page.png") center/cover no-repeat;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 2rem 0;
+    color: #ff3b3f;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    z-index: 2;
+    padding-bottom: 10px; 
+}
+
+/* Параграф під заголовком */
+.header p {
+    font-size: 1rem;
+    color: #ddd;
+    margin-top: 0.5rem;
+}
+
+/* Стилі для форми */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    width: 50%;
+}
+
+input {
+    flex: 1;
+    margin: 0 10px;
+    padding: 0.8rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ff3b3f;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+/* Стилі для кнопки */
+.button {
+    background-color: transparent;
+    color: #ff3b3f;
+    border: 2px solid #ff3b3f;
+    padding: 0.8rem 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #ff3b3f;
+    color: #fff;
+    box-shadow: 0px 0px 10px #ff3b3f;
+    transform: scale(1.05);
+}
+
+/* Підтекст під кнопкою */
+.login-link {
+    color: #bbb;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* Remember Me */
+.rememberMe {
+    color: #fff; 
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Already have an account? */
+.loginLink {
+    color: #fff; /* Білий колір тексту */
+    font-family: 'Arial', sans-serif; /* Вузький шрифт */
+    font-weight: normal;
+    font-size: 0.8rem; /* Зменшено розмір тексту */
+    margin-top: 1.5rem; /* Додано відступ зверху */
+}

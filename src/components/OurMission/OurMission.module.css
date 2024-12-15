@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+  
+
+.container {
+  background: #1a1a1a; 
+  width: 76%;
+}
+
+
+.verticalLine {
+  width: 2px; 
+  height: 200px; 
+  background-color: white;
+}
+
+.textContainer {
+  padding-left: 48px;
+}
+
+.bottom {
+  color: white;
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+
+
+
+
+
+
+
+.missionText {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.descriptionText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+
+
+.line {
+  background-color: #ED2E20;
+  height: 2px;  
+}

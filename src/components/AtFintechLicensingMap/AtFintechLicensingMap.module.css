@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    width: 76%;
+    margin-bottom: 250px;
+    justify-content: center;
+}
+
+.textContainer {
+    position: absolute;
+    /* top: 40%; */
+    /* right: 0; */
+    color: white;
+    z-index: 1;
+    /* padding-right: 240px; */
+    width: 65%;
+    text-align: center;
+}
+
+.topic {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding-top: 109px;
+}
+
+
+.line {
+    background-color: #ED2E20;
+    height: 2px;  
+    width: 100%;
+    position: absolute;
+    bottom: -180px;
+  }
+  

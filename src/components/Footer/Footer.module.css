@@ -1,0 +1,61 @@
+.container {
+    position: relative;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+    width: 76%;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.MainTextINMainTextContainer{
+    color: white;
+    font-weight: bolder;
+}
+
+.BottomTextINMainTextContainer{
+    color: white;
+}
+
+.MainTextContainer{
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; /* Простір між навігацією і контактами */
+    width: 100%; /* Контейнер займає всю ширину */
+    align-items: flex-start; /* Вирівнювання елементів по верхньому краю */
+    padding-top: 40px;
+    color: white;
+}
+
+.navigationContainer {
+    display: flex; /* Включає всі елементи навігації */
+    gap: 40px; /* Відстань між стовпчиками */
+}
+
+.column {
+    display: flex;
+    flex-direction: column; /* Розташування елементів в стовпчик */
+    gap: 10px; /* Відстань між пунктами */
+}
+
+.navigationContainer li {
+    list-style: none; /* Видалення маркерів списку */
+    font-family: "Inria Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contactUs {
+    text-align: right; /* Вирівнювання тексту праворуч */
+    max-width: 300px; /* Обмеження ширини блоку */
+}

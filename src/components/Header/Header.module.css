@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a; /* Задній фон на всю ширину */
+}
+
+.container {
+    width: 76%; /* Обмеження ширини */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 0;
+    width: 100%; /* Ширина контейнера */
+    color: white;
+}
+
+.logo {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navigationContainer {
+    display: flex;
+}
+
+.chooser {
+    display: flex;
+    gap: 30px; /* Відступ між пунктами меню */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.signUp {
+    color: #ED2E20;
+    font-weight: bold;
+}
+
+li {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline; /* Ефект при наведенні */
+}

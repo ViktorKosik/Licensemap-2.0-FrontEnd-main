@@ -1,0 +1,65 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    width: 76%;
+}
+
+.imgContainer {
+    background: url('../../pics/WhatWeDoImg.png') center/cover no-repeat;
+    height: 500px;
+    width: 830px;
+    -webkit-mask-image: linear-gradient(
+        to left, 
+        rgba(0, 0, 0, 1) 70%, 
+        rgba(0, 0, 0, 0) 100%
+    );
+    mask-image: linear-gradient(
+        to left, 
+        rgba(0, 0, 0, 1) 70%, 
+        rgba(0, 0, 0, 0) 100%
+    );
+    position: relative;
+    margin-left: auto;
+}
+
+.textContainer {
+    color: white;
+    z-index: 1;
+    width: 50%; 
+    text-align: left; 
+    position: absolute;
+}
+
+.topic {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.line {
+    background-color: #ED2E20;
+    height: 2px;  
+    width: 100%;
+    position: absolute;
+    bottom: -70px;
+  }
+

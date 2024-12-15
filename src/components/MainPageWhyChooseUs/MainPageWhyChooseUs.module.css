@@ -1,0 +1,70 @@
+.container {
+    align-items: center;
+    background-color: #1a1a1a;
+    width: 76%;
+    margin-bottom: 150px;
+}
+
+
+
+
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding-top: 109px;
+}
+
+
+.line {
+    background-color: white;
+    height: 2px;  
+    width: 20%;
+    position: absolute;
+    bottom: -70px;
+  }
+
+
+  .boxContainer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+
+  .box {
+    width: 303px;
+    height: 270px;
+    border: 5px solid red;
+    display: flex; /* Використання Flexbox */
+    flex-direction: column; /* Встановлення вертикального розташування елементів */
+    justify-content: space-between; /* Відстань між елементами */
+    align-items: center; /* Горизонтальне центрування */
+    padding: 44px 36px; /* Відступи: зверху, з боків, знизу */
+    box-sizing: border-box; /* Врахування padding у розмірах бокса */
+    }   
+
+    .boxTopix {
+        margin-bottom: auto; /* Верхній відступ за потреби */
+        color: #ED2E20;
+    }
+
+    .boxDesc {
+        text-align: center; /* Центрування тексту в середині */
+        font-family: 'Montserrat', sans-serif; /* Стиль шрифта */
+        font-size: 14px; /* Розмір шрифта */
+        line-height: 1.6; /* Міжрядковий інтервал */
+    }
+
+  .topic{
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 74px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+  }

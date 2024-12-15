@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+  
+
+.container {
+  background: #1a1a1a; 
+}
+
+.leftRightContainer {
+  display: flex;
+  height: 609px;
+}
+
+.verticalLine {
+  width: 2px; 
+  height: 200px; 
+  background-color: white;
+}
+
+.textContainer {
+  padding-left: 48px;
+}
+
+
+
+.left {
+  padding-top: 158px;
+  flex: 1;
+  color: white;
+  padding-left: 130px;
+  display: flex;
+}
+
+.left h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  color: #ED2E20;
+  margin-bottom: 20px;
+}
+
+.left h2 {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.right {
+  flex: 1;
+  background: linear-gradient(
+      to left, 
+      rgba(0, 0, 0, 0.5), 
+      #1a1a1a 99%
+    ),
+    url('../../pics/AboutUs.png') center/cover no-repeat; 
+}
+
+.missionText {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.descriptionText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+
+
+
